@@ -1,0 +1,18 @@
+2022-03-21 10:27:34 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field fileInfoService in com.gyf.controller.FileInfoController required a bean of type 'com.gyf.service.FileInfoService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.gyf.service.FileInfoService' in your configuration.
+
